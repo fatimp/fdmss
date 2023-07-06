@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<OverdozenPermsolverParams>
+  <Parameter name="Resolution" datatype="float">
+    <ParameterValue>1.0</ParameterValue>
+  </Parameter>
+  <Parameter name="TimeStep" datatype="float">
+    <ParameterValue>0.0003</ParameterValue>
+  </Parameter>
+  <Parameter name="IterationsPerStep" datatype="unsigned int">
+    <ParameterValue>100</ParameterValue>
+  </Parameter>
+  <Parameter name="MaximumStepsCount" datatype="unsigned int">
+    <ParameterValue>200</ParameterValue>
+  </Parameter>
+  <Parameter name="InitialVelocityValue" datatype="float">
+    <ParameterValue>0.001</ParameterValue>
+  </Parameter>
+  <Parameter name="Accuracy" datatype="float">
+    <ParameterValue>0.01</ParameterValue>
+  </Parameter>
+  <Parameter name="BoundaryCondition" datatype="int">
+    <ParameterValue>0</ParameterValue>
+  </Parameter>
+  <Parameter name="TerminationCondition" datatype="int">
+    <ParameterValue>2</ParameterValue>
+  </Parameter>
+  <Parameter name="AccuracyOrder" datatype="int">
+    <ParameterValue>0</ParameterValue>
+  </Parameter>
+  <Parameter name="ErrorSmoothingLength" datatype="unsigned int">
+    <ParameterValue>10</ParameterValue>
+  </Parameter>
+  <Parameter name="ThreadsNumber" datatype="unsigned int">
+    <ParameterValue>6</ParameterValue>
+  </Parameter>
+  <Parameter name="FlowDirectionAxis" datatype="char">
+    <ParameterValue>AXIS</ParameterValue>
+  </Parameter>
+  <Parameter name="WaterLayerWidth" datatype="unsigned int">
+    <ParameterValue>0</ParameterValue>
+  </Parameter>
+</OverdozenPermsolverParams>
